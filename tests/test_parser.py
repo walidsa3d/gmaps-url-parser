@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from google_maps_url_parser import parse
+from gmaps_url_parser import parse
 
 
 def test_parser():
