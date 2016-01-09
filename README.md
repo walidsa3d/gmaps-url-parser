@@ -18,10 +18,12 @@ $ cd gmaps-url-parser
 $ python setup.py install
 ```
 ## Usage
-```
-```
-### Demo
 
-
+```python
+>>> from gmaps_url_parser import parse
+>>> url = "https://www.google.com/maps/place/u+Saada,+Algeria/@35.2131065,4.1479717,10106m/data=!3m1!1e3!4m2!3m1!1s0x128bb3c644644ec3:0x7f746dd09dad9a9f"
+>>> parse(url)
+{'latitude': 35.2131065, 'zoom_level': '10106', 'place': 'Bou Saada, Algeria', 'maptype': 'earth', 'longitude': 4.1479717}
+```
 ## License
 MIT
