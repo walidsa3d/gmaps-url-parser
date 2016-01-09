@@ -10,7 +10,7 @@ except ImportError:
 
 setup(
     name="gmaps-url-parser",
-    version="0.0.0",
+    version="0.1.0",
     description="parse google maps url",
     long_description=read_md('README.md'),
     author="Walid Saad",
